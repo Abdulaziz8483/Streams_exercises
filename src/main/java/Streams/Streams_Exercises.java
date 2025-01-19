@@ -1,9 +1,10 @@
 package Streams;
 
+import java.util.stream.IntStream;
+
 public interface Streams_Exercises {
 
-     static void lost(String value){
-         System.out.println(value);
-     }
-
+    public static IntStream Unique(String value) {
+        return value.chars();
+    }
 }
